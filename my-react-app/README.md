@@ -1,50 +1,14 @@
-# React + TypeScript + Vite
+# Chat App with Web Sockets
+## Programmed by Benjamin Greenberg
+Mini Project for Coding Temple
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+___
+## Project Overview
+This project works through advanced topics covered in Module 15 of Coding Temple's Frontend specialization. This project uses Web Sockets set up in a flask backend with a React Typescript frontend to build a dynamic bi-directional full-duplex chat app. In this app users can join a chat room, enter a username, send messages, and the filter messages by username. 
+___
+## Installation Instructions
+My program can be cloned from its [github repository](https://github.com/BGreenberg79/CT_Module15-FE_Miniproject) and then opened up using any web browser. These browser's may include Google Chrome, Miscrosoft Edge, Apple Safari, or Mozilla Firefox.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+___
+## Special Thanks
+As always I'm grateful to the staff at Coding Temple for their continued development in my progression as a programmer and software developer. I'm especially grateful for the mentorship provided by my programming coaches Sarah Stodder and Katelyn Mehner.
